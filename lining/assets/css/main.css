@@ -48,50 +48,55 @@ header p{
 }
 /* menu end */
  
-/* banner slider  */  
-.slider {
-    position: relative;     
+/* banner slider  */   
+#s1, #s2 {
+    display: none;
 } 
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 .slides {
-    display: flex; 
+    display: flex;
     transition: transform .6s ease;
 }
 .slide {
-    width: 100%; 
+    width: 100%;
     flex-shrink: 0;
 }
 .slide img {
-    width: 100%; 
-}
-/* Переключение */
+    width: 100%;
+    display: block;
+} 
 #s1:checked ~ .slides {
     transform: translateX(0);
 }
 #s2:checked ~ .slides {
     transform: translateX(-100%);
-}
-/* Стрелки слайда */
+} 
 .arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 60px;
-    color: white;
+    color: #fff;
     cursor: pointer;
     padding: 10px 20px;
     user-select: none;
-    z-index: 2;
-    transition: opacity .2s ease;
+    z-index: 5;
+    opacity: .9;
 }
 .arrow:hover {
-    opacity: 0.7;
-} 
-.left {
-    left: 20px;
+    opacity: .7;
 }
-.right {
-    right: 20px;
-}
+.a1 {right: 20px;}
+.a2 {left: 20px;   } 
+#s1:checked ~ .a1 { display: block; }
+#s1:checked ~ .a2 { display: none; }
+#s2:checked ~ .a1 { display: none; }
+#s2:checked ~ .a2 { display: block; }
+
 /* about */
 .about{
     margin-top: 50px;
@@ -118,6 +123,41 @@ header p{
     color: #000;
 }
 /* Atlet */
-.cardAtlet img{
-    width: 300px;
+.atlet {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
 }
+.cardAtlet {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+.cardAtlet img {
+    width: 100%;
+}
+.textAtlet {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.45);  
+    color: #fff;
+}
+.h1Atlet {
+    margin: 0;
+    font-size: 24px;
+}
+.nameAtlet a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*  */
+.h1Lining{
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+/*  */
