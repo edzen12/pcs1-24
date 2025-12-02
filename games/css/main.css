@@ -17,8 +17,54 @@ a{
     margin-right: 10px;
 }
 .firstMenu{
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-transform: uppercase;
+}
+/* secondMenu */
+.secondMenu{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+.secondMenu ul{
+    display: flex;
+    align-items: center;
+}
+.secondMenu a{
+    color: #fff;
+}
+.secondMenu li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.secondMenu input{
+    font-size: 18px;
+    width: 300px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/* banner */
+.banner{
+    text-align: center;
+}
+/* card block */
+.blockCardUnderBanner{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.cardBlock{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 220px;
+}
+.cardBlock ul{
+    display: flex;
+    justify-content: space-around;
 }
