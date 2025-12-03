@@ -68,3 +68,55 @@ a{
     display: flex;
     justify-content: space-around;
 }
+/* popular */
+section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.popular{
+    width: 100%; 
+    display: flex;
+}
+.percent40{
+    width: 40%; 
+}
+.percent60{
+    width: 60%; 
+}
+.Per60CardBlock {
+    display: flex;
+}
+.Per60CardBlock .cardBlockImg{
+    width: 300px;
+}
+.Per60CardBlock .cardBlock{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 320px;
+}
+.popularImgCardBlock{
+    width: 40px;
+}
+/* cardSchet */
+.cardSchet{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.cardSchetBlock{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+.cardSchetBlock h2{
+    font-weight: 800;
+    color: #8b8b8b;
+    font-size: 24px;
+}
+.cardSchetBlock p{
+    width: 150px;
+    font-weight: 600;
+    color: #8b8b8b;
+}
