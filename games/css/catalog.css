@@ -109,3 +109,25 @@
 .priceSalesCardGameblock a{
     color: white;
 }
+/* blockBigCheckbox */
+legend{
+    margin-top: 20px;
+}
+.blockBigCheckbox{
+    width: 100%;
+    display: flex;
+}
+.checkboxInputBlock{
+    width: 80%;
+}
+.checkboxQuantityBlock{
+    width: 20%;
+}
+.checkboxQuantityBlock span{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
