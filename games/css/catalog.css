@@ -1,0 +1,111 @@
+.catalog{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.catalog h3{
+    color: gray;
+}
+.catalog input{
+    color: gray;
+    width: 99.4%;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.borderBigCatalog{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bigCatalog {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+.percent30{
+    width: 30%; 
+}
+.percent70{
+    width: 70%; 
+}
+.percent70 ul{
+    display: flex;
+    padding: 0;
+}
+.percent70 ul li{
+    margin-right: 30px;
+}
+.percent70 ul li a{
+    color: gray;
+}
+/* textCardGameblock */
+.textCardGameblock {
+    margin-left: 10px;
+    width: 500px;
+}
+.textCardGameblock img{
+    width: 25px;
+}
+.textCardGameblock li a{
+    font-size: 11px;
+}
+.textCardGameblock p{
+    font-size: 12px;
+}
+.greenSpanGame{
+    color: rgb(72, 167, 35);
+}
+.textCardGameblock .imgTextTudasuda li{
+    margin-right: 5px;
+}
+/* imgCardGameblock */
+.imgCardGameblock{
+    position: relative;
+    width: 250px;
+}
+.imgCardGameblock img{
+    width: 100%;
+    display: block;
+}
+.overlayText{
+    position: absolute;
+    top: -3%;
+    left: -3%;
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-shadow: 1px 0px 5px black
+}
+.cardGameBlockThird{
+    display: flex;
+}
+/* priceSalesCardGameblock */
+.priceSalesCardGameblock{
+    padding-top: 25px;
+}
+.priceSalesCardGameblock span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.priceSalesCardGameblock p{
+    font-size: 14px;
+}
+.priceSalesCardGameblock .skidkaPrice{
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+.priceSalesCardGameblock{text-align: center;}
+.priceSalesCardGameblock p{
+    background-color: #D8E7E0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.priceSalesCardGameblock a{
+    color: white;
+}
