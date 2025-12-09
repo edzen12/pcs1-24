@@ -6,3 +6,18 @@
     background-color: #96BE45; 
     border-radius: 20px;
 }
+@media only screen and (max-width: 430px) {
+  .genaBigImg img{
+      height: 400px;
+      width: 400px;
+      object-fit: cover;
+}
+}
+.genaBigImg img{
+    object-fit: cover;
+    height: 700px;
+}
+.genaSmallImg img{
+    height: 300px;
+    object-fit: cover;
+}
