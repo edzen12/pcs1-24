@@ -21,3 +21,64 @@
     height: 300px;
     object-fit: cover;
 }
+.imgBLockRecom{
+    height: 220px;
+}
+.imgBLockRecom img{
+    height: 100%;
+    object-fit: cover;
+}
+.recomBlock a{
+    width: 100%;
+}
+.recomBlock p{
+    margin-bottom: 8px;
+}
+.recomDanger{
+    background-color: black;
+    color: white;
+}
+.recomDanger:hover{
+    background-color: red;
+    color: white;
+}
+/* IconsBlock */
+.IconsBlock a{
+    text-decoration: none;
+    color: black;
+    text-transform: lowercase;
+}  
+
+/* Изображение */
+.IconsBlock img {
+    display: block; /* Убирает лишний отступ снизу */
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out; /* Плавный переход */
+}
+
+/* Эффект при наведении */
+.IconsBlock:hover img {
+    transform: rotate(360deg); /* Поворот на 360 градусов */
+}
+/* header */
+.header{
+    background-color: black;
+}
+.header ul{
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.header li{list-style-type: none;}
+/* ramkaCategory */
+.ramkaCategory ul{
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    margin: 0;
+}
+.ramkaCategory li{list-style-type: none; }

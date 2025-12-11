@@ -8,10 +8,32 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <header class="header">
+        <div class="container">
+        <ul>
+            <li>Ваш район доставки Бишкек</li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bus-front" viewBox="0 0 16 16">
+                <path d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm1-6c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m0-1c-1.837 0-3.353.107-4.448.22a.5.5 0 1 1-.104-.994A44 44 0 0 1 8 2c1.876 0 3.426.109 4.552.226a.5.5 0 1 1-.104.994A43 43 0 0 0 8 3"/>
+                <path d="M15 8a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V2.64c0-1.188-.845-2.232-2.064-2.372A44 44 0 0 0 8 0C5.9 0 4.208.136 3.064.268 1.845.408 1 1.452 1 2.64V4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v3.5c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2zM8 1c2.056 0 3.71.134 4.822.261.676.078 1.178.66 1.178 1.379v8.86a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 11.5V2.64c0-.72.502-1.301 1.178-1.379A43 43 0 0 1 8 1"/>
+                </svg>
+                Доставка заказа</li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-7-circle" viewBox="0 0 16 16">
+                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.37 5.11V4.001h5.308V5.15L7.42 12H6.025l3.317-6.82v-.07H5.369Z"/></svg>
+                    Примерка перед покупкой</li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/></svg>
+                Оригинальные товары из Турции</li>
+        </ul>
+        </div>
+    </header>
     
     <!-- header -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img width="150px" src="https://images.khaoscontrol.net/wp-content/uploads/2017/06/shopify_logo_black.png" alt="">
             </a>
@@ -24,7 +46,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">О нас</a>
+                    <a class="nav-link" href="#">О компания</a>
                 </li>
                 <!-- dropdown -->
                 <li class="nav-item dropdown">
@@ -40,28 +62,22 @@
                 </li> 
                 <!-- dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="genskaya_odegda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Женское
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="genskaya_odegda.html">Женское</a></li>
                         <li><a class="dropdown-item" href="#">Куртки</a></li>
                         <li><a class="dropdown-item" href="#">Брюки</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Обувь</a></li>
                     </ul>
                 </li> 
-                <!-- dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Детское
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Куртки</a></li>
-                        <li><a class="dropdown-item" href="#">Брюки</a></li> 
-                        <li><a class="dropdown-item" href="#">Обувь</a></li>
-                    </ul>
-                </li> 
-                <!--  -->
+                <!-- dropdown --> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Скидки</a>
+                </li>
+                <!-- dropdown --> 
                 <li class="nav-item">
                     <a class="nav-link" href="#">Оплата-Доставка</a>
                 </li>
@@ -170,6 +186,166 @@
         </div>
     </div>
     <!-- product -->
+
+    <!-- recom -->
+    <div class="recomBlock mt-5">
+        <h2 class="text-center">Рекомендуем</h2>
+        <div class="container mt-5">
+            <div class="row">
+                <!--  -->
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://i.pinimg.com/736x/00/d9/30/00d930bcbde85855d0cbeb45e040f173.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ca05fe79-b9c7-4fb8-8c4c-fdad91c6829c/600x900" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://images.pexels.com/photos/4456638/pexels-photo-4456638.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://img.freepik.com/premium-photo/beautiful-girl-black-dress-street_88340-5829.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://www.kartinki24.ru/uploads/gallery/main/13/kartinki24_ru_gothic_29.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+                <div class="col-xl-2 col-6 col-md-4">
+                    <div class="card">
+                        <div class="imgBLockRecom">
+                            <img src="https://as1.ftcdn.net/jpg/03/15/49/84/1000_F_315498449_nCFMs1pg6YY4iJQuHiBTpOTrPU9kkQNN.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text" style="font-size: 13px;">свитер 0917085710001</p>
+                            <p class="fw-bolder">1600 сом</p>
+                            <p style="font-size: 13px;">Размеры: <span>M, L, XL, XXL</span></p>
+                            <a href="#" class="btn recomDanger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> 
+                                Купить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--  --> 
+            </div>
+        </div>
+    </div>
+    <!-- recom -->
+
+    <!-- icons -->
+    <div class="IconsBlock mt-5">
+        <div class="container">
+            <h2 class=" text-center">То, что актуально в этом сезоне</h2>
+            <div class="row mt-5">
+                <!-- col -->
+                <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/3043/3043307.png" alt=""> 
+                    <p><a href="#">Рубашки</a></p>
+                </div>
+                <!-- col -->
+                 <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/413/413496.png" alt="">
+                    <p><a href="#">Жакеты</a></p>
+                </div>
+                <!-- col -->
+                 <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/5987/5987646.png" alt="">
+                    <p><a href="#">Куртки</a></p>
+                </div>
+                <!-- col -->
+                 <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/2093/2093764.png" alt="">
+                    <p><a href="#">Брюки</a></p>
+                </div>
+                <!-- col -->
+                 <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/96/96460.png" alt="">
+                    <p><a href="#">Платья</a></p>
+                </div>
+                <!-- col -->
+                 <div class="col-xl-2 col-3 col-md-4 text-center">
+                    <img height="150px" width="150px" src="https://cdn-icons-png.flaticon.com/512/619/619672.png" alt="">
+                    <p><a href="#">Юбки</a></p>
+                </div>
+                <!-- col -->
+            </div>
+        </div>
+    </div>
+    <!-- icons -->
 
     <!-- blockGena -->
     <div class="blockGena">
@@ -281,7 +457,6 @@
             </div>
         </div>
     </div>
-     
     <!-- accordeon -->
 
 
